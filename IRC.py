@@ -27,7 +27,7 @@ class IRC:
         self.send(channel,'Started PogChamp')
  
     def get_text(self):
-        text=self.irc.recv(4096)  #receive the text
+        text=self.irc.recv(4096) 
         text=text.decode('UTF-8')
         if text.find('PING') != -1:                      
             self.irc.send(bytes('PONG ' + text.split() [1] + '\r\n','UTF-8'))  
