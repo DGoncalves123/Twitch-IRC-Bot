@@ -1,5 +1,0 @@
-HOST irc.chat.twitch.tv
-PORT 6667
-NICK cleisthenesbot
-PASS oauth:qv1rggxuvlazgqe5uq3kzk13pf3ggm
-CHAN boltgaming
