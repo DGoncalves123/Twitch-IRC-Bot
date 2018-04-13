@@ -1,5 +1,0 @@
-HOST irc.chat.twitch.tv
-PORT 6667
-NICK boltgaming
-PASS oauth:b87sm95udgk6s27htv69b1ir71dh4u
-CHAN boltgaming
